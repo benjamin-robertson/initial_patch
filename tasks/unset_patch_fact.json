@@ -1,7 +1,15 @@
 {
-  "puppet_task_version": 1,
+  "description": "Unsets the patchme fact",
   "supports_noop": false,
-  "description": "A short description of this task",
+  "input_method": "stdin",
   "parameters": {
+    "factfile": {
+      "description": "file containing fact",
+      "type": "String[1]"
+    },
+    "factname": {
+        "description": "fact name to change to false",
+        "type": "String[1]"
+    }
   }
 }
