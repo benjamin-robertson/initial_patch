@@ -4,12 +4,12 @@
   "input_method": "stdin",
   "parameters": {
     "factfile": {
-      "description": "file containing fact",
-      "type": "String[1]"
+      "type": "String[1]",
+      "description": "file containing fact"
     },
     "factname": {
-        "description": "fact name to change to false",
-        "type": "String[1]"
+        "type": "String[1]",
+        "description": "fact name to change to false"
     }
   }
 }
