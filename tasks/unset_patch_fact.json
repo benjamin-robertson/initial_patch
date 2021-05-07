@@ -2,6 +2,10 @@
   "description": "Unsets the patchme fact",
   "supports_noop": false,
   "input_method": "environment",
+  "implementations": [
+    {"name": "unset_patch_fact.sh", "requirements": ["shell"]},
+    {"name": "unset_patch_fact.ps1", "requirements": ["powershell"]}
+  ],
   "parameters": {
     "factfile": {
       "type": "String[1]",
