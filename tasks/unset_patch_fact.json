@@ -1,7 +1,7 @@
 {
   "description": "Unsets the patchme fact",
   "supports_noop": false,
-  "input_method": "stdin",
+  "input_method": "environment",
   "parameters": {
     "factfile": {
       "type": "String[1]",
